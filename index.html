@@ -1,0 +1,635 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf4ed">
+  <meta name="description" content="Devendra Panwar — aspiring Full-Stack Developer and AI Engineer, building useful digital products.">
+  <title>Devendra Panwar — dev.endra</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a class="logo" href="#home" aria-label="Devendra Panwar home">
+      <span class="logo-dev">dev</span><span class="logo-end">.endra</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation"
+      aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a class="nav-cta" href="#contact">Let's connect ↗</a>
+     
+    </nav>
+  </header>
+
+  <main id="main">
+   
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> STUDENT DEVELOPER · INDORE, INDIA</p>
+
+        <h1>
+          Building ideas.<br>
+          <span class="highlight">Writing code.</span><br>
+          Growing with AI.
+        </h1>
+
+        <p class="intro">
+          Hey, I'm Devendra — an Integrated M.Tech IT student exploring
+          full-stack development and artificial intelligence. I enjoy
+          solving problems, learning by building, and turning ideas
+          into useful digital products.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">
+            Explore my projects <span aria-hidden="true">↘</span>
+          </a>
+          <a class="text-link" href="#contact">Let's talk ↗</a>
+        </div>
+
+        <div class="socials">
+          
+          <a href="https://github.com/Devendrapanwar27" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/devendra-panwar-243059384/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <span>Find me online</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="photo-backdrop" aria-hidden="true"></div>
+        <div class="photo-grid" aria-hidden="true"></div>
+
+        <img
+          class="profile-photo"
+          src="images/profile.png"
+          alt="Portrait of Devendra Panwar"
+          fetchpriority="high"
+        >
+
+        <div class="photo-sticker sticker-top" aria-hidden="true">
+          dev<span>.</span>
+        </div>
+
+        <div class="photo-sticker sticker-left" aria-hidden="true">
+          &lt;/&gt;
+        </div>
+
+        <div class="photo-sticker sticker-right" aria-hidden="true">
+          ✳
+        </div>
+
+        <div class="photo-caption">
+          <span class="green-dot"></span>
+          Building & learning
+        </div>
+      </div>
+
+      <div class="hero-bottom" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <span class="scroll-line"></span>
+        <span>01 / 05</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <p class="eyebrow">01 / ABOUT ME</p>
+
+      <div class="two-column">
+        <h2>
+          Learning the craft.<br>
+          <span class="muted">Building with purpose.</span>
+        </h2>
+
+        <div class="about-copy">
+          <p>
+            I'm pursuing an Integrated M.Tech in Information Technology
+            at IIPS, DAVV, Indore. My journey is focused on developing
+            strong programming fundamentals and understanding how
+            useful software is designed and built.
+          </p>
+
+          <p>
+            I'm working toward becoming a full-stack developer, while
+            exploring AI and machine learning. My goal is to create
+            practical applications, collaborate on meaningful projects,
+            and prepare for software development and generative AI
+            internship opportunities.
+          </p>
+
+          <a class="text-link" href="#journey">Explore my learning journey ↘</a>
+        </div>
+      </div>
+
+      <div class="facts">
+        <article>
+          <small>EDUCATION</small>
+          <h3>Integrated M.Tech</h3>
+          <p>Information Technology</p>
+        </article>
+
+        <article>
+          <small>INSTITUTE</small>
+          <h3>IIPS, DAVV</h3>
+          <p>Indore, Madhya Pradesh</p>
+        </article>
+
+        <article>
+          <small>ACADEMICS</small>
+          <h3>9.21/10</h3>
+          <p>CGPA</p>
+        </article>
+
+        <article>
+          <small>GRADUATION</small>
+          <h3>2030</h3>
+          
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">02 / MY TOOLKIT</p>
+
+      <div class="section-heading">
+        <h2>Tools of the trade.</h2>
+        <p>
+          A growing toolkit built through coursework, coding practice,
+          and personal projects.
+        </p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card blue-card">
+          <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+          <small>PROGRAMMING</small>
+          <h3>Core languages</h3>
+          <p>Programming logic, fundamentals, and problem-solving practice.</p>
+          <div class="tags">
+            <span>C</span>
+            <span>C++</span>
+            <span>JavaScript</span>
+          </div>
+        </article>
+
+        <article class="skill-card pink-card">
+          <div class="skill-icon" aria-hidden="true">▧</div>
+          <small>PROJECT EXPERIENCE</small>
+          <h3>Frontend</h3>
+          <p>Building browser-based interfaces and interactive experiences.</p>
+          <div class="tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>DOM</span>
+            <span>Local Storage</span>
+          </div>
+        </article>
+
+        <article class="skill-card teal-card">
+          <div class="skill-icon" aria-hidden="true">⌘</div>
+          <small>CURRENTLY LEARNING</small>
+          <h3>Backend & data</h3>
+          <p>Learning server-side development, APIs, and data storage.</p>
+          <div class="tags">
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>MongoDB</span>
+            <span>SQL</span>
+          </div>
+        </article>
+
+        <article class="skill-card yellow-card">
+          <div class="skill-icon" aria-hidden="true">↗</div>
+          <small>DEVELOPMENT TOOLS</small>
+          <h3>Tools & DSA</h3>
+          <p>Version control and data structure fundamentals.</p>
+          <div class="tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Arrays</span>
+            <span>Sorting</span>
+            <span>Binary Search</span>
+            <span>stack queue & linkedlistt</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="note">
+        Skill labels reflect a learning journey, not a claim of professional mastery.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <p class="eyebrow">03 / SELECTED WORK</p>
+
+      <div class="section-heading">
+        <h2>Ideas into projects.</h2>
+        <p>
+          A growing portfolio of web development, programming,
+          and problem-solving projects.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <article class="project featured">
+          <div class="project-art campus-art">
+            <small>01 / WEB DEVELOPMENT</small>
+
+            <div class="campus-mockup">
+              <div class="campus-header">
+                <span class="campus-logo">C<span>C</span>.</span>
+                <span class="campus-menu">CAMPUS PLATFORM</span>
+              </div>
+
+              <div class="campus-content">
+                <span class="campus-pill">STUDENT CONNECT</span>
+                <h3>Your campus.<br><em>One connected space.</em></h3>
+                <p>Connect · Discover · Collaborate</p>
+
+                <div class="campus-blocks">
+                  <span>01 &nbsp; Community</span>
+                  <span>02 &nbsp; Opportunities</span>
+                  <span>03 &nbsp; Resources</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <small>PROJECT 01</small>
+              <span class="project-type">Web application</span>
+            </div>
+
+            <h3>CampusConnect</h3>
+
+            <p>
+              A student-focused web platform designed to bring campus
+              communities, academic resources, and opportunities
+              together in one accessible place.
+            </p>
+
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              
+              
+            </div>
+
+            <div class="project-links">
+              <a href="#contact" class="placeholder-link">Live demo ↗</a>
+              <a href="#contact" class="placeholder-link">Source code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="project">
+          <div class="project-art student-art">
+            <small>02 / C++</small>
+
+            <div class="record-card">
+              <h3>STUDENT<br>RECORDS<span>_</span></h3>
+              <hr>
+              <p>01 &nbsp; Student records</p>
+              <p>02 &nbsp; File handling</p>
+              <p>03 &nbsp; Data management</p>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <small>PROJECT 02</small>
+              <span class="project-type">C++</span>
+            </div>
+
+            <h3>Student Management System</h3>
+
+            <p>
+              A C++ project using file handling to work with student
+              data. Update this description to list the exact record
+              operations implemented in your program.
+            </p>
+
+            <div class="tags">
+              <span>C++</span>
+              <span>File Handling</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#contact" class="placeholder-link">Source code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project">
+          <div class="project-art portfolio-art">
+            <small>03 / WEB DESIGN</small>
+
+            <div class="mini-portfolio">
+              <span class="mini-logo">dev<span>.</span>endra</span>
+              <span class="mini-nav">ABOUT · WORK · CONTACT</span>
+              <h3>CURIOUS<br><em>BY DESIGN.</em></h3>
+              <div class="mini-shapes">
+                <i></i><i></i><i></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <small>PROJECT 03</small>
+              <span class="project-type">Portfolio</span>
+            </div>
+
+            <h3>Personal Portfolio</h3>
+
+            <p>
+              A responsive portfolio showcasing my education,
+              technical skills, projects, and learning journey,
+              built with semantic HTML, CSS, and JavaScript.
+            </p>
+
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JS</span>
+              <span>Responsive</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#home">View this portfolio ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 4 -->
+        <article class="project">
+          <div class="project-art future-art">
+            <small>04 / FUTURE BUILD</small>
+            <div class="plus" aria-hidden="true">+</div>
+            <h3>Something useful<br>is brewing.</h3>
+            <span class="coming">COMING SOON</span>
+          </div>
+
+          <div class="project-info">
+            <div class="project-meta">
+              <small>PROJECT 04</small>
+              <span class="project-type">Planned</span>
+            </div>
+
+            <h3>AI-powered full-stack app</h3>
+
+            <p>
+             This project is not
+              launched yet.
+            </p>
+
+            <div class="tags">
+              <span>Planned</span>
+              <span>Not launched</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <p class="eyebrow">04 / ACHIEVEMENTS</p>
+
+      <div class="section-heading">
+        <h2>Building with a team.</h2>
+        <p>
+          Hackathons are opportunities to turn ideas into solutions,
+          learn quickly, and collaborate under pressure.
+        </p>
+      </div>
+
+      <div class="hackathon-grid">
+
+        <!-- HACKIT BROS -->
+        <article class="hack-card hack-featured">
+          <div class="hack-top">
+            <span class="hack-number">01 / HACKATHON</span>
+            <span class="hack-badge">1ST · TECHNICAL ROUND</span>
+          </div>
+
+          <div class="hack-brand">HACK<span>IT</span> BROS <span class="rocket">↗</span></div>
+
+          <h3>Zero-Click Store Operator</h3>
+
+          <p class="hack-description">
+            An autonomous AI solution for neighborhood kirana stores
+            that understands customer requests, handles orders,
+            checks inventory, and automates everyday store operations
+            through natural conversations.
+          </p>
+
+          <div class="hack-stats">
+            <div>
+              <strong>61</strong>
+              <span>Teams</span>
+            </div>
+            <div>
+              <strong>1st</strong>
+              <span>Technical round</span>
+            </div>
+            <div>
+              <strong>4th</strong>
+              <span>Overall rank</span>
+            </div>
+          </div>
+
+          <div class="tags">
+            <span>AI</span>
+            <span>Automation</span>
+            <span>Conversational AI</span>
+            <span>Retail Tech</span>
+          </div>
+
+        
+        </article>
+
+        <!-- SMART INDIA HACKATHON -->
+        <article class="hack-card">
+          <div class="hack-top">
+            <span class="hack-number">02 / HACKATHON</span>
+            <span class="hack-badge hack-badge-blue">INTERNAL ROUND</span>
+          </div>
+
+          <div class="hack-brand">SMART INDIA <span>HACKATHON</span></div>
+
+          <h3>Smart India Hackathon 2026</h3>
+
+          <p class="hack-description">
+            Participated in Smart India Hackathon 2026 and cleared
+            the internal round. 
+          </p>
+
+          <div class="tags">
+            <span>Teamwork</span>
+            <span>Innovation</span>
+            <span>Problem Solving</span>
+          </div>
+
+          <p class="hack-footnote">
+            Selected in the internal round for developing an AI-powered patient case-taking solution that converts doctor-patient conversations into structured case sheets, with multilingual support and an offline-first workflow to streamline AYUSH healthcare documentation.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- JOURNEY & LEARNING -->
+    <section class="section" id="journey">
+      <p class="eyebrow">05 / THE JOURNEY</p>
+
+      <div class="section-heading">
+        <h2>Learning in public.</h2>
+        <p>
+          Building strong fundamentals, developing useful applications,
+          and exploring the future of intelligent software.
+        </p>
+      </div>
+
+      <div class="journey-grid">
+        <div class="timeline">
+
+          <article class="timeline-item">
+            <span class="timeline-dot blue-dot"></span>
+            <small>ACADEMICS</small>
+            <h3>Integrated M.Tech in IT</h3>
+            <p>IIPS, DAVV · Indore</p>
+            <p>CGPA: 9.21/10 · Expected graduation: 2030</p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot pink-dot"></span>
+            <small>HACKATHONS</small>
+            <h3>From ideas to prototypes</h3>
+            <p>
+              Collaborating on technology projects, learning to solve
+              practical problems, and building solutions with a team.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-dot teal-dot"></span>
+            <small>CURRENT FOCUS</small>
+            <h3>Engineering end-to-end solutions</h3>
+            <p>
+              Strengthening problem-solving with DSA in C++, developing
+              backend engineering skills, and exploring AI/ML to build
+              smarter, more useful applications.
+            </p>
+          </article>
+
+        </div>
+
+        <aside class="learning-card">
+          <div class="spark" aria-hidden="true">✳</div>
+          <small>MY LEARNING ROADMAP</small>
+          <h3>From code fundamentals to intelligent products.</h3>
+
+          <ul>
+            <li><span>01</span> DSA & problem solving in C++</li>
+            <li><span>02</span> Backend development with Node.js & Express</li>
+            <li><span>03</span> REST APIs & database integration</li>
+            <li><span>04</span> AI/ML & generative AI fundamentals</li>
+          </ul>
+
+          <p class="learning-foot">Updated as my skills evolve.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <p class="eyebrow">06 / SAY HELLO</p>
+
+      <div class="contact-grid">
+        <div>
+          <h2>Have an idea?<br><span>Let's make it real.</span></h2>
+
+          <p>
+            I'm interested in software development internships,
+            AI opportunities, thoughtful collaborations, and
+            conversations about technology.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <!-- Replace with your actual email -->
+          <a href="mailto:devendrapanwar27706@gmail.com">
+            <span>
+              <small>EMAIL</small>
+              <strong>devendrapanwar27706@gmail.com</strong>
+            </span>
+            <b aria-hidden="true">↗</b>
+          </a>
+          <a href="https://github.com/Devendrapanwar27" target="_blank" rel="noreferrer">
+            <span>
+              <small>GITHUB</small>
+              <strong>github.com/Devendrapanwar</strong>
+            </span>
+            <b aria-hidden="true">↗</b>
+          </a>
+
+          
+          <a href="https://www.linkedin.com/in/devendra-panwar-243059384/" target="_blank" rel="noreferrer">
+            <span>
+              <small>LINKEDIN</small>
+              <strong>MY LINKEDIN ID</strong>
+            </span>
+            <b aria-hidden="true">↗</b>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a class="logo footer-logo" href="#home">
+      <span class="logo-dev">dev</span><span class="logo-end">.endra</span>
+    </a>
+
+    <p>Turning curiosity into code, and ideas into impact.</p>
+    <p>© <span id="year"></span> Devendra Panwar</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  
+
+
+</body>
+</html>
+
