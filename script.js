@@ -126,13 +126,13 @@ document.querySelectorAll(".placeholder-link").forEach((link) => {
 
     if (!toast) {
       window.alert(
-        "Replace this placeholder with your actual project URL."
+        "."
       );
       return;
     }
 
     toast.textContent =
-      "Add your real GitHub repository or live-demo URL before publishing.";
+      "";
 
     toast.classList.add("show");
 
